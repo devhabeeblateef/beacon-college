@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.bg-image
+{
+    background-size: cover;
+     background-image: url('https://images.unsplash.com/photo-1604147706283-d7119b5b822c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80');
+    height: 100vh;
+}
+
+.container
+{
+    padding-top: 20px;
+}
+
+.col-3
+{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 700px) {
+    .col-3
+    {
+    font-size: x-small;
+    }
+}
+.header
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    color: black;   
+}
+
+.subHeader
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: small;
+    margin-left: 6em;
+    margin-top: -10px;
+}
+
+@media only screen and (min-width: 600px) {
+    .subHeader
+    {
+        margin-left: 9em;
+    }
+}
+
+.welcome
+{
+    margin: 60px 100px;
+    color: rgb(9, 97, 97);
+}
+
+@media only screen and (max-width: 700px) {
+    .welcome
+    {
+        margin: 60px 40px;
+    }
+}
+
+.subWelcome
+{
+    margin-left: 140px;
+    margin-top: -40px;
+    font-size: 70px;
+    color: #2b2b2b;
+    font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+    .subWelcome
+    {
+        margin-left: 70pxl
+    }
+}
+.navbar-light .navbar-toggler
+{
+    color: transparent;
+    outline: none;
+    border-color: transparent !important;
+}
+

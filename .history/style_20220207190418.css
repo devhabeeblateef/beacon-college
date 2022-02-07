@@ -1,0 +1,31 @@
+.bg-image
+{
+    background-size: cover; 
+    background-position: center;
+     background-image: url('https://images.unsplash.com/photo-1516627145497-ae6968895b74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1440&q=80');
+    height: 100vh;
+}
+
+.header
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.subHeader
+{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    margin-left: 6em;
+    margin-top: -10px;
+}
+
+@media only screen and (min-width: 600px) {
+    .subHeader
+    {
+        margin-left: 10em;
+    }
+}
